@@ -1,0 +1,14 @@
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\bin\Debug\net8.0\Collectionss.exe
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\bin\Debug\net8.0\Collectionss.deps.json
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\bin\Debug\net8.0\Collectionss.runtimeconfig.json
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\bin\Debug\net8.0\Collectionss.dll
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\bin\Debug\net8.0\Collectionss.pdb
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.GeneratedMSBuildEditorConfig.editorconfig
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.AssemblyInfoInputs.cache
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.AssemblyInfo.cs
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.csproj.CoreCompileInputs.cache
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.dll
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\refint\Collectionss.dll
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.pdb
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.genruntimeconfig.cache
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\ref\Collectionss.dll
