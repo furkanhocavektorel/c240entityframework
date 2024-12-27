@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace DBConnectProject
+namespace DBConnectProject.entity
 {
     internal class Customers
     {

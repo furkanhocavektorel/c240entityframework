@@ -12,3 +12,4 @@ D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\refint\Collec
 D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.pdb
 D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.genruntimeconfig.cache
 D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\ref\Collectionss.dll
+D:\Furkan hoca csharp240\AdvancePlus\Collectionss\obj\Debug\net8.0\Collectionss.sourcelink.json

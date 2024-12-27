@@ -1,7 +1,7 @@
-﻿
+﻿using DBConnectProject.entity;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBConnectProject
+namespace DBConnectProject.context
 {
     internal class DbBaglan : DbContext
     {
@@ -18,7 +18,6 @@ namespace DBConnectProject
                 "TrustServerCertificate=True; ");
         }
         public DbSet<Customers> Customers { get; set; }
-
 
 
     }

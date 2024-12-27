@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Furkan hoca csharp240\\AdvancePlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{823E3B18-6769-4BA0-9E09-67CB311D2629}|DBConnectProject\\DBConnectProject.csproj|d:\\furkan hoca csharp240\\advanceplus\\dbconnectproject\\context\\dbbaglan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823E3B18-6769-4BA0-9E09-67CB311D2629}|DBConnectProject\\DBConnectProject.csproj|solutionrelative:dbconnectproject\\context\\dbbaglan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|8b633196-8ca1-4691-a68d-84c907c96557MSSQL__/LAB203_OGRETMEN/c240/True/SqlTable/Create dbo.Customers_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823E3B18-6769-4BA0-9E09-67CB311D2629}|DBConnectProject\\DBConnectProject.csproj|d:\\furkan hoca csharp240\\advanceplus\\dbconnectproject\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823E3B18-6769-4BA0-9E09-67CB311D2629}|DBConnectProject\\DBConnectProject.csproj|solutionrelative:dbconnectproject\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823E3B18-6769-4BA0-9E09-67CB311D2629}|DBConnectProject\\DBConnectProject.csproj|d:\\furkan hoca csharp240\\advanceplus\\dbconnectproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823E3B18-6769-4BA0-9E09-67CB311D2629}|DBConnectProject\\DBConnectProject.csproj|solutionrelative:dbconnectproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|8b633196-8ca1-4691-a68d-84c907c96557MSSQL__/LAB203_OGRETMEN/c240/True/SqlTable/Create dbo.Customers_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|8b633196-8ca1-4691-a68d-84c907c96557MSSQL__/LAB203_OGRETMEN/c240/True/SqlTable/Create dbo.Customers_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbBaglan.cs",
+              "DocumentMoniker": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\context\\DbBaglan.cs",
+              "RelativeDocumentMoniker": "DBConnectProject\\context\\DbBaglan.cs",
+              "ToolTip": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\context\\DbBaglan.cs",
+              "RelativeToolTip": "DBConnectProject\\context\\DbBaglan.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA2wAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T17:56:09.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create dbo.Customers_1 ",
+              "DocumentMoniker": "8b633196-8ca1-4691-a68d-84c907c96557MSSQL__/LAB203_OGRETMEN/c240/True/SqlTable/Create dbo.Customers_1.sql",
+              "ToolTip": "Create dbo.Customers_1 *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-27T17:53:21.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "DBConnectProject\\service\\CustomerService.cs",
+              "ToolTip": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\service\\CustomerService.cs",
+              "RelativeToolTip": "DBConnectProject\\service\\CustomerService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T17:48:56.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\Program.cs",
+              "RelativeDocumentMoniker": "DBConnectProject\\Program.cs",
+              "ToolTip": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\Program.cs*",
+              "RelativeToolTip": "DBConnectProject\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T17:46:41.963Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

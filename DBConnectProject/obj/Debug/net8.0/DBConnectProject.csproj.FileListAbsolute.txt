@@ -61,3 +61,4 @@ D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\runtimes\
 D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\obj\Debug\net8.0\DBConnectProject.csproj.AssemblyReference.cache
 D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\obj\Debug\net8.0\DBConnec.2EAD0CE0.Up2Date
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\obj\Debug\net8.0\DBConnectProject.sourcelink.json
