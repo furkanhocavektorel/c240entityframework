@@ -1,0 +1,15 @@
+D:\Furkan hoca csharp240\AdvancePlus\Generic\bin\Debug\net8.0\Generic.exe
+D:\Furkan hoca csharp240\AdvancePlus\Generic\bin\Debug\net8.0\Generic.deps.json
+D:\Furkan hoca csharp240\AdvancePlus\Generic\bin\Debug\net8.0\Generic.runtimeconfig.json
+D:\Furkan hoca csharp240\AdvancePlus\Generic\bin\Debug\net8.0\Generic.dll
+D:\Furkan hoca csharp240\AdvancePlus\Generic\bin\Debug\net8.0\Generic.pdb
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\Generic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\Generic.AssemblyInfoInputs.cache
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\Generic.AssemblyInfo.cs
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\Generic.csproj.CoreCompileInputs.cache
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\Generic.sourcelink.json
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\Generic.dll
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\refint\Generic.dll
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\Generic.pdb
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\Generic.genruntimeconfig.cache
+D:\Furkan hoca csharp240\AdvancePlus\Generic\obj\Debug\net8.0\ref\Generic.dll

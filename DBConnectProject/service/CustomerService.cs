@@ -1,24 +1,30 @@
 ﻿
 using DBConnectProject.context;
 using DBConnectProject.entity;
+using DBConnectProject.repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace DBConnectProject.service
 {
     internal class CustomerService : ICustomerService
     {
-        DbBaglan d;
 
-        public CustomerService(DbBaglan db)
+        IRepository<Customers, string> repository;
+        IRepository<Customers, string> repository2;
+
+
+        public CustomerService(IRepository<Customers,string> repository , IAsyncDisposable elastic)
         {
-            d= db;
+            
+            this.repository = repository;
+           
         }
 
 
         public void save(string id, string companyName, string customerName)
         {
-            Customers c = 
-                d.Customers.FirstOrDefault(x => x.CustomerId.Equals(id));
+            Customers c = repository.getById(id);
+                
 
             if (c != null)
             {
@@ -29,13 +35,14 @@ namespace DBConnectProject.service
             customer.CompanyName = companyName;
             customer.ContactName = customerName;
 
-            d.Customers.Add(customer);
-            d.SaveChanges();
+            repository.add(customer);
+            elastic.add(customer);
+            
         }
 
         public bool update(string id, string contactName)
         {
-            Customers customer=d.Customers.FirstOrDefault(x => x.CustomerId.Equals(id));
+            Customers customer=repository.getById(id);
 
             if (customer == null)
             {
@@ -44,8 +51,8 @@ namespace DBConnectProject.service
             else
             {
                 customer.ContactName= contactName;
-                d.Customers.Update(customer);
-                d.SaveChanges() ;
+                repository.update(customer, id);
+                
                 return true;
 
             }

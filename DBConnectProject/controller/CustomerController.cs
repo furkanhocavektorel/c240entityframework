@@ -1,5 +1,6 @@
 ﻿
 using DBConnectProject.context;
+using DBConnectProject.repository;
 using DBConnectProject.service;
 
 namespace DBConnectProject.controller
@@ -9,7 +10,7 @@ namespace DBConnectProject.controller
         ICustomerService customerService;
         public CustomerController()
         {
-            customerService=new CustomerService(new DbBaglan());
+            customerService=new CustomerService(new CustomerRepository());
         }
 
         public void save(string id,string compname,string contactName)

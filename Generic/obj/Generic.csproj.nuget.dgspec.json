@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\DBConnectProject.csproj": {}
+    "D:\\Furkan hoca csharp240\\AdvancePlus\\Generic\\Generic.csproj": {}
   },
   "projects": {
-    "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\DBConnectProject.csproj": {
+    "D:\\Furkan hoca csharp240\\AdvancePlus\\Generic\\Generic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\DBConnectProject.csproj",
-        "projectName": "DBConnectProject",
-        "projectPath": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\DBConnectProject.csproj",
+        "projectUniqueName": "D:\\Furkan hoca csharp240\\AdvancePlus\\Generic\\Generic.csproj",
+        "projectName": "Generic",
+        "projectPath": "D:\\Furkan hoca csharp240\\AdvancePlus\\Generic\\Generic.csproj",
         "packagesPath": "C:\\Users\\Vektorel\\.nuget\\packages\\",
-        "outputPath": "D:\\Furkan hoca csharp240\\AdvancePlus\\DBConnectProject\\obj\\",
+        "outputPath": "D:\\Furkan hoca csharp240\\AdvancePlus\\Generic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vektorel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,16 +45,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.5.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
