@@ -1,8 +1,6 @@
 ﻿
 using DBConnectProject.context;
-using DBConnectProject.controller;
-using DBConnectProject.entity;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace DBConnectProject
 {
@@ -12,7 +10,8 @@ namespace DBConnectProject
         {
 
          
-            
+            DbBaglan baglan = new DbBaglan();
+            baglan.Employees.ToList().ForEach(x => Console.WriteLine(x.FirstName));
 
 
 

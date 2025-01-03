@@ -2,7 +2,7 @@
 
 namespace DBConnectProject.repository
 {
-    internal interface IRepository<T,ID> 
+    internal interface ICrudRepo<T,ID> 
     {
 
         List<T> GetAll();

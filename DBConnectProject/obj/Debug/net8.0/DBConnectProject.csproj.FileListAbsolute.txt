@@ -62,3 +62,12 @@ D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\runtimes\
 D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\obj\Debug\net8.0\DBConnectProject.csproj.AssemblyReference.cache
 D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\obj\Debug\net8.0\DBConnec.2EAD0CE0.Up2Date
 D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\obj\Debug\net8.0\DBConnectProject.sourcelink.json
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\EntityFramework.dll
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Furkan hoca csharp240\AdvancePlus\DBConnectProject\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

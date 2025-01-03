@@ -28,14 +28,12 @@
 
             
 
-            Dictionary<string, List<string> > testDictionary = new Dictionary<int, string>();
 
             List<string> a= new List<string>();
             a.Add("ali");
             a.Add("veli");
             a.Add("deli");
 
-            testDictionary.Add("adlar", a);
           
 
             SortedList<int, string> sortedList = new SortedList<int, string>();
