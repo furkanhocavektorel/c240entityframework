@@ -1,0 +1,11 @@
+﻿.mytable {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 7, 180);
+    margin-top: 100px;
+    width: 60%;
+}
+
+.mybody {
+    display: flex;
+}
