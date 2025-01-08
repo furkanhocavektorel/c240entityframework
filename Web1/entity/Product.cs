@@ -5,13 +5,15 @@ namespace Web1.entity
     public class Product
     {
         [Key]
-        public int Id { get; set; }
-        public string Ad { get; set; }
+        public int ProductID { get; set; }
+        public string ProductName { get; set; }
         
-        public int Stok { get; set; }
-        public int Fiyat { get; set; }
-        public string CategoryName { get; set; }
-        public string Desc { get; set; }
+        public string? QuantityPerUnit { get; set; }
+        public decimal? UnitPrice { get; set; }
+        public short? UnitsInStock { get; set; }
+        public short? UnitsOnOrder { get; set; }
+        public short? ReorderLevel { get; set; }
+        public bool? Discontinued { get; set; }
 
     }
 }

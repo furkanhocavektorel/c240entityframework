@@ -1,10 +1,11 @@
 ﻿namespace Web1.Models
 {
-    public class ProductModel // data transfer object
+    public class ProductModel
     {
-        public string Ad { get; set; }
+        public string Name { get; set; }
+        public int? Stock { get; set; }
 
-        public int Stok { get; set; }
-        public int Fiyat { get; set; }
+        public decimal? Fiyat { get; set; }
+
     }
 }

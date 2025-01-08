@@ -1,0 +1,15 @@
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\bin\Debug\net8.0\TryCathch.exe
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\bin\Debug\net8.0\TryCathch.deps.json
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\bin\Debug\net8.0\TryCathch.runtimeconfig.json
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\bin\Debug\net8.0\TryCathch.dll
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\bin\Debug\net8.0\TryCathch.pdb
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\TryCathch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\TryCathch.AssemblyInfoInputs.cache
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\TryCathch.AssemblyInfo.cs
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\TryCathch.csproj.CoreCompileInputs.cache
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\TryCathch.sourcelink.json
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\TryCathch.dll
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\refint\TryCathch.dll
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\TryCathch.pdb
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\TryCathch.genruntimeconfig.cache
+D:\Furkan hoca csharp240\AdvancePlus\TryCathch\obj\Debug\net8.0\ref\TryCathch.dll
