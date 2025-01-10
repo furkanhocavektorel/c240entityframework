@@ -14,9 +14,20 @@ namespace Web1.service.concrete
             _northwindDB = northwindDB;
         }
 
-        public List<ProductModel> getAllProducts()
+        public List<ProductModel> getAllProducts(int? id)
         {
-            List<Product> products = _northwindDB.Products.ToList();
+            List<Product> products = new List<Product>();
+
+            if (id == null)
+            {
+                products= _northwindDB.Products.ToList();
+            }
+            else
+            {
+                products = _northwindDB.Products
+                    .Where(product=> product.Category.CategoryID== id).ToList();
+            }
+
 
             List<ProductModel> productsModel = new List<ProductModel>();
 
@@ -33,7 +44,7 @@ namespace Web1.service.concrete
             int sayfaSayisi=products.Count / 50;
             Console.WriteLine(sayfaSayisi);
 
-            productsModel = productsModel.Take(5)
+            productsModel = productsModel.Take(15)
                 .OrderByDescending(x => x.Name)
                 .ToList();
 

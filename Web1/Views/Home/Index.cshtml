@@ -3,7 +3,7 @@
 }
 @using Web1.Models
 
-@model List<ProductModel>
+@model IndexModel
 
 
 <!DOCTYPE html>
@@ -63,43 +63,16 @@
                 <div class="p-4 pt-5">
                     <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(https://media.licdn.com/dms/image/v2/D4D03AQGK8H8RvQ2foA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680244954308?e=2147483647&v=beta&t=j1jjUirOt7tobAMduUtWTncJ9r6LIW5VwSFUOKBXhCk);"></a>
                     <ul class="list-unstyled components mb-5">
-                        <li class="active">
-                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                            <ul class="collapse list-unstyled" id="homeSubmenu">
-                                <li>
-                                    <a href="#">Home 1</a>
-                                </li>
-                                <li>
-                                    <a href="#">Home 2</a>
-                                </li>
-                                <li>
-                                    <a href="#">Home 3</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                            <ul class="collapse list-unstyled" id="pageSubmenu">
-                                <li>
-                                    <a href="#">Page 1</a>
-                                </li>
-                                <li>
-                                    <a href="#">Page 2</a>
-                                </li>
-                                <li>
-                                    <a href="#">Page 3</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
+                       
+                        @foreach(var item in Model.categories){
+                            <li>
+                                <a href="/Home/Index/@item.CategoryName">@item.CategoryName</a>
+                                button 
+                            </li>
+                        }
+                       
+                                      
+                        
                     </ul>
 
                 </div>
@@ -107,22 +80,19 @@
         </div>
 
         <div class="mytable">
-            <table class="table w-100 table-striped table-dark table-bordered border-primary">
-                <thead>
-                    <tr>
-                        <th scope="col">Ad</th>
-                        <th scope="col">Stok</th>
-                        <th scope="col">Fiyat</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
+          
+          
+                
+                    @foreach (var item in Model.products)
                     {
-                        <tr>
-                            <td>@item.Name</td>
-                            <td>@item.Stock</td>
-                            <td>@item.Fiyat</td>
-                        </tr>
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.Name</h5>
+                                <p class="card-text">@item.Fiyat</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
                     }
                   
 
@@ -131,8 +101,7 @@
                   
 
                   
-                </tbody>
-            </table>
+           
         </div>
 
     </div>

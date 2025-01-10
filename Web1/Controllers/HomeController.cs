@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Web1.context;
+using Web1.entity;
+using Web1.Models;
 using Web1.service;
 using Web1.service.concrete;
 
@@ -9,20 +11,28 @@ namespace Web1.Controllers
     {
        
         private IProductService _productService;
+        private ICategoryService _categoryService;
 
-        public HomeController()
+        public HomeController(IProductService productService, ICategoryService categoryService)
         {
-            _productService = new ProductService(new NorthwindDB());
+            _productService = productService;
+            _categoryService = categoryService;
         }
 
 
-        public IActionResult Index()
+        public IActionResult Index(int? id)
         {
             Console.WriteLine("ooo kral hg");
-            return View(_productService.getAllProducts());
+
+            List<CategoryModel> categories = _categoryService.GetAll();
+
+            IndexModel indexModel = new IndexModel();
+            indexModel.categories = categories;
+            indexModel.products = _productService.getAllProducts(id); 
+
+            return View(indexModel);
         }
-        // Product için categoriler getirilecek.
-        // Müþteri kayit edilece.REgister yapýlacak
+
 
         public IActionResult Privacy()
         {

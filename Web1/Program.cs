@@ -1,3 +1,7 @@
+using Web1.context;
+using Web1.service;
+using Web1.service.concrete;
+
 namespace Web1
 {
     public class Program
@@ -9,8 +13,12 @@ namespace Web1
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<NorthwindDB>();
+        
             var app = builder.Build();
-
+            
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
@@ -24,7 +32,9 @@ namespace Web1
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Product}/{action=ekle}/{id?}");
+            app.MapControllerRoute(
+                )
 
             app.Run();
         }

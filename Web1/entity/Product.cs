@@ -14,6 +14,8 @@ namespace Web1.entity
         public short? UnitsOnOrder { get; set; }
         public short? ReorderLevel { get; set; }
         public bool? Discontinued { get; set; }
+        //Navigation
+        public Category Category { get; set; }
 
     }
 }
